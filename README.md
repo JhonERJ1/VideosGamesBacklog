@@ -1,15 +1,15 @@
-# 🎮 Backlog de Videojuegos
+# Backlog de Videojuegos
 
 Aplicación web full-stack para gestionar tu lista de videojuegos: pendientes, en progreso, terminados y abandonados. Con calificación, género, plataforma, horas jugadas y comentarios.
 
-## 🛠️ Stack tecnológico
+## Stack tecnológico
 
 - **Frontend:** HTML5, CSS3, JavaScript Vanilla
 - **Backend:** Node.js + Express.js
 - **Base de datos:** MongoDB + Mongoose
 - **Otros:** dotenv, cors
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 ### CRUD completo
 - ✅ **Crear** juego con formulario validado
@@ -18,13 +18,13 @@ Aplicación web full-stack para gestionar tu lista de videojuegos: pendientes, e
 - ✅ **Eliminar** con modal de confirmación
 
 ### Funcionalidades adicionales
-- 🔍 **Búsqueda en tiempo real** por título
-- 🎯 **Filtros** por estado, género y plataforma
-- 📊 **Indicadores visuales:** total, pendientes, jugando, terminados, calificación promedio y horas totales
-- 🔔 Notificaciones tipo toast
-- 📱 Diseño responsive
+- **Búsqueda en tiempo real** por título
+- **Filtros** por estado, género y plataforma
+- **Indicadores visuales:** total, pendientes, jugando, terminados, calificación promedio y horas totales
+- Notificaciones tipo toast
+- Diseño responsive
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 backlog-videojuegos/
@@ -47,7 +47,7 @@ backlog-videojuegos/
     └── index.html              # Página principal
 ```
 
-## 🚀 Instalación y ejecución
+## Instalación y ejecución
 
 ### Requisitos previos
 - Node.js (v16 o superior)
@@ -121,7 +121,7 @@ Visita `http://localhost:3000` en tu navegador.
 - `?genero=RPG` — Filtra por género
 - `?plataforma=PC` — Filtra por plataforma
 
-## 🧩 Modelo de datos (Juego)
+## Modelo de datos (Juego)
 
 ```js
 {
@@ -137,7 +137,7 @@ Visita `http://localhost:3000` en tu navegador.
 }
 ```
 
-## 📝 Notas
+## Notas
 
 - Todas las validaciones se hacen tanto en el cliente como en el servidor.
 - La aplicación usa `fetch` para comunicarse con la API (no se requiere recargar la página).
